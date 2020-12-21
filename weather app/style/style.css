@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 350px;
+}
+
+.city{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-div, .img-div{
+    width: 50%;
+}
+
+#header-img{
+    width: 100px;
+}
+
+#temp{
+    font-size: 36px;
+    text-align: center;
+}
+#weather{
+    font-size: 20px;
+    text-align: center;
+}
+
+table{
+    border: none;
+}
+
+td{
+    width: 100px;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0 10px;
+    border: none;
+}
+
+tr{
+    border: none;
+}
+tr:nth-child(2n){
+    background-color: rgb(212, 203, 203);
+}
+
+td img {
+    width: 50px;
+}
+
+.table2{
+    color: green;
+}
+
+.table3{
+    color: blueviolet;
+}
+
+.table1, .table2, .table3{
+    width: 90px;
+    text-align: center;
+}
